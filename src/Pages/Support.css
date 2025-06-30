@@ -1,0 +1,146 @@
+/* Base Styles */
+.about-container {
+  padding: 100px 20px 40px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.about-container h2.about {
+  font-size: clamp(24px, 5vw, 32px);
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.breadcrumb {
+  text-align: center;
+}
+
+.breadcrumb .Home {
+  font-size: clamp(14px, 3vw, 20px);
+  color: #777;
+  margin: 0;
+}
+
+.breadcrumb .Home a {
+  color: rgb(40, 166, 69);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.breadcrumb .Home a:hover {
+  color: rgb(40, 166, 69);
+  text-decoration: underline;
+}
+
+/* Heading Styles */
+.h1, .h2 {
+  font-weight: bold;
+  font-size: clamp(24px, 5vw, 35px);
+  text-align: center;
+  padding: 20px 0 10px;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+/* Paragraph Styles */
+.p, .p1 {
+ 
+  padding: 15px 20px;
+  font-size: clamp(1rem, 2vw, 1.1rem);
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+/* List Styles */
+.about2 {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.about2 ul {
+  padding-left: 10px;
+  text-align: left;
+}
+
+.about2 li {
+  margin-bottom: 0.8rem;
+  line-height: 1.5;
+  list-style-position: outside;
+}
+
+/* Link Styles */
+ul li a {
+  color: rgb(40, 166, 69);
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Accordion Container */
+.App {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+/* Responsive Adjustments */
+@media (min-width: 768px) {
+  .about-container {
+    padding-top: 120px;
+    text-align: left;
+    padding-left: 5%;
+  }
+  
+  .about-container h2.about {
+    text-align: left;
+  }
+  
+  .breadcrumb {
+    text-align: left;
+  }
+  
+  .h1, .h2 {
+    text-align: left;
+    padding-left: 5%;
+  }
+  
+  .p, .p1 {
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .about2 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .about2 ul {
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .about-container {
+    padding-left: 10%;
+  }
+  
+  .h1, .h2 {
+    padding-left: 10%;
+  }
+  
+  .p, .p1 {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  .about2 {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
